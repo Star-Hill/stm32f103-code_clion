@@ -94,9 +94,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
     for(int i = 1;i <= 100;i++){
     HAL_GPIO_WritePin(GPIOB,GPIO_PIN_9,GPIO_PIN_RESET);
-    HAL_Delay(1000);
+    HAL_Delay(2000);
     HAL_GPIO_WritePin(GPIOB,GPIO_PIN_9,GPIO_PIN_SET);
-    HAL_Delay(1000);
+    HAL_Delay(2000);
   }
 }
 
